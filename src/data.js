@@ -1,3 +1,14 @@
+/**
+ * 1. TODO:  and
+ *    the corresponding `"Women's World Champion"`
+ * 2. TODO: Remove all of 'Tag Team Champions' from the `BELTS` array and,
+ *    simultaneously, remove all of the names in the `CHAMPIONS` array that correspond with those related indices.
+ * 3. TODO: Alphabetize `CHAMPIONS` by last name.
+ * 4. TODO: Create a new ARRAY of objects called `CHAMPIONSHIPS` that contains the following properties:
+ *   - `title` - The name of the title.
+ *  - `champion` - The name of the champion.
+ */
+
 export const CHAMPIONS = [
   "Cody Rhodes",
   "Damian Priest",
