@@ -1,6 +1,5 @@
 /**
- * 1. TODO:  and
- *    the corresponding `"Women's World Champion"`
+ * 1. TODO: Remove `"Vacant Title" and the corresponding `"Women's World Champion"`.
  * 2. TODO: Remove all of 'Tag Team Champions' from the `BELTS` array and,
  *    simultaneously, remove all of the names in the `CHAMPIONS` array that correspond with those related indices.
  * 3. TODO: Alphabetize `CHAMPIONS` by last name.
@@ -8,23 +7,6 @@
  *   - `title` - The name of the title.
  *  - `champion` - The name of the champion.
  */
-
-export const CHAMPIONS = [
-  "Cody Rhodes",
-  "Damian Priest",
-  "Vacant Title",
-  "Bayley",
-  "Sami Zayn",
-  "Logan Paul",
-  "Awesome Truth",
-  "A-Town Down Under",
-  "The Kabuki Warriors",
-  "Ilja Dragunov ",
-  "Roxanne Perez",
-  "Oba Femi",
-  "Nathan Frazer & Axiom",
-  "Charlie Dempsey",
-];
 
 export const BELTS = [
   "Undisputed WWE Champion",
@@ -41,4 +23,21 @@ export const BELTS = [
   "NXT North American Champion",
   "NXT Tag Team Champions",
   "NXT Heritage Cup Champion",
+];
+
+export const CHAMPIONS = [
+  "Cody Rhodes",
+  "Damian Priest",
+  "Vacant Title",
+  "Bayley",
+  "Sami Zayn",
+  "Logan Paul",
+  "Awesome Truth",
+  "A-Town Down Under",
+  "The Kabuki Warriors",
+  "Ilja Dragunov ",
+  "Roxanne Perez",
+  "Oba Femi",
+  "Nathan Frazer & Axiom",
+  "Charlie Dempsey",
 ];
