@@ -1,19 +1,3 @@
-/**
- * @typedef {Object} RemoveCorrespondingItemsByTermArgs
- * @property {string[]} terms1
- * @property {string[]} terms2
- * @property {string} filterTerm
- */
-/**
- * @typedef {Object} Terms
- * @property {string[]} terms1
- * @property {string[]} terms2
- */
-
-/**
- * @param {RemoveCorrespondingItemsByTermArgs} args
- * @returns {Terms}
- */
 export function removeCorrespondingItemsByTerm({ terms1, terms2, filterTerm }) {
   return terms1.reduce(
     (accumulatedResults, term, index) => {
