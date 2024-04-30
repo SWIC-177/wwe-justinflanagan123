@@ -1,3 +1,12 @@
+/**
+ * 1. TODO: Filter out the `Vacant Title` from the `CHAMPIONS` array. Also, remove the corresponding index from the `BELTS` array.
+ * 2. TODO: Filter out the `Tag Team Champions` from the `BELTS` array. Also, remove the corresponding indices from the `CHAMPIONS` array.
+ * 3. TODO: Alphabetize `CHAMPIONS` by last name.
+ * 4. TODO: Create a new ARRAY of objects called `CHAMPIONSHIPS` that contains the following properties:
+ *   - `title` - The name of the title.
+ *  - `champion` - The name of the champion.
+ */
+
 export const CHAMPIONS = [
   "Cody Rhodes",
   "Damian Priest",
