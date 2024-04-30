@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * 1. TODO: Filter out the `Vacant Title` from the `CHAMPIONS` array. Also, remove the corresponding index from the `BELTS` array.
  * 2. TODO: Filter out the `Tag Team Champions` from the `BELTS` array. Also, remove the corresponding indices from the `CHAMPIONS` array.
@@ -6,7 +7,6 @@
  *   - `title` - The name of the title.
  *  - `champion` - The name of the champion.
  */
-
 export const BELTS = [
   "Undisputed WWE Champion",
   "World Heavyweight Champion",
@@ -35,6 +35,7 @@ export const CHAMPIONS = [
   "A-Town Down Under",
   "The Kabuki Warriors",
   "Ilja Dragunov ",
+  "Ilja Dragunov",
   "Roxanne Perez",
   "Oba Femi",
   "Nathan Frazer & Axiom",
