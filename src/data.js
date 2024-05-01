@@ -1,4 +1,3 @@
-
 /**
  * 1. TODO: Filter out the `Vacant Title` from the `CHAMPIONS` array. Also, remove the corresponding index from the `BELTS` array.
  * 2. TODO: Filter out the `Tag Team Champions` from the `BELTS` array. Also, remove the corresponding indices from the `CHAMPIONS` array.
@@ -34,7 +33,6 @@ export const CHAMPIONS = [
   "Awesome Truth",
   "A-Town Down Under",
   "The Kabuki Warriors",
-  "Ilja Dragunov ",
   "Ilja Dragunov",
   "Roxanne Perez",
   "Oba Femi",
