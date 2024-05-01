@@ -1,3 +1,8 @@
+export function getLastName(fullName) {
+  const splitName = fullName.split("");
+  return splitName[splitName.length - 1];
+}
+
 export function removeCorrespondingItemsByTerm({ terms1, terms2, filterTerm }) {
   return terms1.reduce(
     (accumulatedResults, term, index) => {
