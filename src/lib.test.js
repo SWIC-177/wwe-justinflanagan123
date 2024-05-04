@@ -31,6 +31,24 @@ describe("getLastName", () => {
 
     expect(result).toBe(expected);
   });
+
+  test("returns the last name from a multi-word full name", () => {
+    const fullName = "John Michael Doe";
+    const expected = "Doe";
+
+    const result = getLastName(fullName);
+
+    expect(result).toBe(expected);
+  });
+
+  test("returns the last name from a full name with special characters", () => {
+    const fullName = "Dan & Phil";
+    const expected = "Phil";
+
+    const result = getLastName(fullName);
+
+    expect(result).toBe(expected);
+  });
 });
 
 test("removeCorrespondingItemsByTerm", () => {
