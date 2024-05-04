@@ -22,6 +22,15 @@ describe("getLastName", () => {
 
     expect(result).toBe(expected);
   });
+
+  test("returns the last name from a full name with extra spaces at the beginning", () => {
+    const fullName = "    John Doe";
+    const expected = "Doe";
+
+    const result = getLastName(fullName);
+
+    expect(result).toBe(expected);
+  });
 });
 
 test("removeCorrespondingItemsByTerm", () => {
