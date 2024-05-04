@@ -1,6 +1,10 @@
 export function getLastName(fullName) {
-  const splitName = fullName.trim().split("");
+  const splitName = fullName.trim().split(" ");
   return splitName[splitName.length - 1];
+}
+
+export function merge2ArraysIntoAnArrayOfObjects({ a1, a2, key1, key2 }) {
+  return null;
 }
 
 export function removeCorrespondingItemsByTerm({ terms1, terms2, filterTerm }) {
