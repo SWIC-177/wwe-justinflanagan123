@@ -13,6 +13,15 @@ describe("getLastName", () => {
     // Assert
     expect(result).toBe(expected);
   });
+
+  test("returns the last name from a full name with extra spaces", () => {
+    const fullName = "John    Doe";
+    const expected = "Doe";
+
+    const result = getLastName(fullName);
+
+    expect(result).toBe(expected);
+  });
 });
 
 test("removeCorrespondingItemsByTerm", () => {
