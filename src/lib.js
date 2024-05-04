@@ -1,5 +1,5 @@
 export function getLastName(fullName) {
-  const splitName = fullName.split("");
+  const splitName = fullName.trim().split("");
   return splitName[splitName.length - 1];
 }
 
