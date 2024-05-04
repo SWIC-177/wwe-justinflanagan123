@@ -1,5 +1,9 @@
 import { describe, expect, test } from "vitest";
-import { removeCorrespondingItemsByTerm, getLastName } from "./lib";
+import {
+  removeCorrespondingItemsByTerm,
+  getLastName,
+  merge2ArraysIntoAnArrayOfObjects,
+} from "./lib";
 
 describe("getLastName", () => {
   test("returns the last name from a full name", () => {
@@ -49,6 +53,23 @@ describe("getLastName", () => {
 
     expect(result).toBe(expected);
   });
+});
+
+test("merge2ArraysIntoAnArrayOfObjects", () => {
+  const a1 = ["title1", "title2", "title3"];
+  const a2 = ["champion1", "champion2", "champion3"];
+  const key1 = "title";
+  const key2 = "champion";
+
+  const expected = [
+    { title: "title1", champion: "champion1" },
+    { title: "title2", champion: "champion2" },
+    { title: "title3", champion: "champion3" },
+  ];
+
+  const result = merge2ArraysIntoAnArrayOfObjects({ a1, a2, key1, key2 });
+
+  expect(result).toEqual(expected);
 });
 
 test("removeCorrespondingItemsByTerm", () => {
