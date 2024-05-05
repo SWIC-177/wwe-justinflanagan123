@@ -1,8 +1,8 @@
 import { describe, expect, test } from "vitest";
 import {
-  removeCorrespondingItemsByTerm,
   getLastName,
   merge2ArraysIntoAnArrayOfObjects,
+  removeCorrespondingItemsByTerm,
 } from "./lib";
 
 describe("getLastName", () => {
